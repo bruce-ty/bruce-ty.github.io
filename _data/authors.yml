@@ -1,0 +1,15 @@
+brucety:
+  name: "전태연 (Bruce TY)"
+  bio: "A Husband, Venture investor, Former enterprenuer, SW Developer"
+  location: "South Korea"
+  avatar: "/assets/images/lake.jpg"
+  links:
+    - label: "Linked-in"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/brucetyjeon/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/brucetyjeon"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/brucetyjeon"

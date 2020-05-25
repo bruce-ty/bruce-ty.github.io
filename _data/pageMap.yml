@@ -1,0 +1,40 @@
+2020-05-24-hello-brucety:
+    type: blog
+    title: 'Hello world'
+    summary: 'First blog post'
+    parent: null
+    url: /blog/2020/05/25/hello-brucety
+    updated: '2020-05-25 00:53:13 +0900'
+    children: []
+Hardthing:
+    type: wiki
+    title: '책리뷰 - 하드씽(The hard thing about hard things)'
+    summary: ""
+    parent: ""
+    url: /wiki/Hardthing
+    updated: '2020-05-24 23:50:11 +0900'
+    children: []
+index:
+    type: wiki
+    title: wiki
+    summary: null
+    parent: null
+    url: /wiki/index
+    updated: '2020-05-25 00:24:43 +0900'
+    children: []
+유투브이야기:
+    type: wiki
+    title: '책리뷰 - 유투브이야기'
+    summary: ""
+    parent: ""
+    url: /wiki/유투브이야기
+    updated: '2020-05-24 22:30:14 +0900'
+    children: []
+책:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: ""
+    url: /wiki/책
+    updated: '2020-05-24 11:50:44 +0900'
+    children: []

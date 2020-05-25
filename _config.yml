@@ -1,0 +1,89 @@
+minimal_mistakes_skin    : "default"
+
+local: ko-KR
+title: "Know thyself"
+title-separator: "-"
+subtitle: "Thoughts, writings and archives"
+name: 전태연
+email: your-email@example.com
+description: "생각, 정리, 살아가는 이야기"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: lakethebig
+github_username: bruce-ty
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-include-cache
+
+permalink: /:year-:month-:day-:title
+paginate: 3
+
+collections:
+  wiki:
+    output: true
+    permalink: /:collection/:path
+  smalltalk:
+    output: true
+    permalink: /:collection/:path
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      comments: true
+  - scope:
+      path: ""
+      type: smalltalk
+    values:
+      layout: home
+      comments: true
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      comments: true
+      paginate: false
+
+comments:
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: 5
+    colorscheme: "light"
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - _smalltalk/diary.md
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+include: ["_pages"]
