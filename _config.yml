@@ -1,10 +1,10 @@
 minimal_mistakes_skin    : "default"
 
 local: ko-KR
-title: "Know thyself"
+title: "Bruce TY Jeon"
 title-separator: "-"
 subtitle: "Thoughts, writings and archives"
-name: 전태연
+name: brucety
 email: your-email@example.com
 description: "생각, 정리, 살아가는 이야기"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -41,7 +41,6 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: false
@@ -58,12 +57,16 @@ defaults:
     values:
       layout: home
       comments: true
+      author: brucety
+      author_profile: true
   - scope:
       path: ""
       type: wiki
     values:
       comments: true
       paginate: false
+      author: brucety
+      author_profile: true
 
 comments:
   provider: "facebook"
