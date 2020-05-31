@@ -16,7 +16,8 @@ blame: https://github.com/bruce-ty/bruce-ty.github.io/blame/master/_wiki
 issue: https://github.com/bruce-ty/bruce-ty.github.io/issues/new
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-paginate
   - jekyll-feed
