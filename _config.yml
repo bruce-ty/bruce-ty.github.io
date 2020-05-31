@@ -8,7 +8,7 @@ name: brucety
 email: your-email@example.com
 description: "생각, 정리, 살아가는 이야기"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brucetyjeon.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lakethebig
 github_username: bruce-ty
 
