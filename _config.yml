@@ -12,6 +12,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lakethebig
 github_username: bruce-ty
 
+blame: https://github.com/bruce-ty/bruce-ty.github.io/blame/master/_wiki
+issue: https://github.com/bruce-ty/bruce-ty.github.io/issues/new
+
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
