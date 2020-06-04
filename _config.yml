@@ -22,6 +22,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-sitemap
 
 permalink: /:year-:month-:day-:title
 paginate: 3

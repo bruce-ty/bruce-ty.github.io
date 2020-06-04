@@ -3,11 +3,15 @@ layout  : wiki
 title   : 책리뷰 - 하드씽(The hard thing about hard things)
 summary :
 date    : 2020-05-24 11:45:33 +0900
-updated : 2020-05-24 23:50:11 +0900
+updated : 2020-06-04 23:32:06 +0900
+last_modified_at : 2020-06-04 23:32:06 +0900
 tags    :
 toc     : true
 public  : true
 parent  :
+sitemap:
+  priority: 1.0
+  changefreq: daily
 ---
 
 # 저자
