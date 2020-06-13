@@ -2,8 +2,8 @@
 layout  : wikiindex
 title   : wiki
 date: 2020-06-04 23:26:57 +0900
-updated: 2020-06-04 23:30:52 +0900
-last_modified_at: 2020-06-04 23:30:52 +0900
+updated: 2020-06-13 22:38:51 +0900
+last_modified_at: 2020-06-13 22:38:51 +0900
 tags    : index
 toc     : false
 public  : true
@@ -18,4 +18,5 @@ author_profile: true
 * 자동차
 * VR
 * 건강
+* [[투자]]
 * [[스타트업]]
